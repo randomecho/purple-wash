@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  background: #fff;
+  color: #000;
+  margin: 2mm;
+}
+
+.header-title {
+  font-weight: bold;
+  padding: 0 3em 0 0;
+}
+
+.header-title, .header {
+  font-size: 0.9em;
+}
+
+#messagebody {
+  margin: 2em 0 0 0;
+  width: 100%;
+}
