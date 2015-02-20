@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+td {
+  vertical-align: top;
+}
+
 #login-form, .call-out {
   background: #f8f2fa;
   border-radius: 3px;
@@ -59,20 +63,62 @@ a {
   border-radius: 0 0 3px 3px;
   display: inline-block;
   line-height: 1.3em;
-  margin: 0 0.2em;
+  margin: 0 0.1em 0.2em 0.1em;
   padding: 0;
 }
 
 .taskbutton {
   color: #fff;
   display: block;
-  padding: 0 0.8em 0.3em 0.8em;
+  padding: 0 0.5em 0.3em 0.5em;
+}
+
+#tabsbar {
+  background: #bdabde;
+  padding: 0.2em 0;
+}
+
+#tabsbar > .tablink a {
+  background: #e7e1f2;
+  border: 1px solid #9077ba;
+  border-radius: 3px;
+  color: #623ca3;
+  display: inline-block;
+  margin: 0 0.1em 0.2em 0.2em;
+  padding: 0.1em 0.5em;
 }
 
 .boxtitle {
   text-align: center;
 }
 
+.boxfooter {
+  background: #5d369c;
+}
+
 .error-title {
   color: #c00;
+}
+
+fieldset {
+  border: 1px solid #d8cae3;
+  border-width: 1px 0 0 0;
+  margin: 0 0 1em 0;
+}
+
+legend {
+  color: #7625ba;
+  padding: 0.1em 1em 0.1em 0.1em;
+}
+
+.mainaction {
+  background: #222;
+  border: 1px solid #111;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  font-size: 1.3em;
+  margin: 1em auto 0 auto;
+  padding: 0.1em 0.2em;
+  width: 30%;
 }
