@@ -34,3 +34,11 @@
   margin: 0 0.5em;
   padding: 0.5em 1em;
 }
+
+#messagelist thead th, #messagelist thead a {
+  color: #fff;
+}
+
+.unread {
+  font-weight: bold;
+}
